@@ -77,7 +77,7 @@ def color_trackbar(img_path):
         k = cv.waitKey(0)
         if k == ord('s'):
             save_values(t.color_low,t.color_high)
-        else:
+        elif k == 27:
             cv.destroyAllWindows()
             break
 
