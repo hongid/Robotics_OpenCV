@@ -33,5 +33,5 @@ def face_detection():
 
 
 if __name__ == '__main__':
-    
+
     face_detection()
