@@ -86,7 +86,7 @@ def color_trackbar(img_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Code for Adjusting Color Threshold using cv.trackbar and cv.inRange')
-    parser.add_argument('--input1', help='Path to the first input image.', default='book.jpg')
+    parser.add_argument('--image', help='Path to the first input image.', default='book.jpg')
     args = parser.parse_args()
 
-    color_trackbar(os.path.join("data/test images/", args.input1))
+    color_trackbar(os.path.join("data/test images/", args.image))
