@@ -78,6 +78,8 @@ class Thresh_Trackbar:
             return False
 
     def save_values(self):
+        if self.__block_size % 2 == 0:
+            self.__block_size += 1
 
         with open("config.json", "r") as f:
             config = json.load(f)
