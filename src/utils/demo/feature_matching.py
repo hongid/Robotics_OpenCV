@@ -41,4 +41,4 @@ if __name__ == '__main__':
         '--template', help='Path to the template image.', default="facemask_edited.jpg")
     args = parser.parse_args()
 
-    feature_matching(os.path.join("data/test images/", args.src), os.path.join("data/test images/", args.template))
+    feature_matching(os.path.join("data/test_images/", args.src), os.path.join("data/test_images/", args.template))

@@ -132,7 +132,7 @@ if __name__ == '__main__':
     from find_contours import find_cnt
     from perspective_transform import persp_trans
 
-    thresh_trackbar(os.path.join("data/test images/", args.image))
+    thresh_trackbar(os.path.join("data/test_images/", args.image))
 else:
     from src.utils.color_segmentation import color_seg
     from src.utils.find_contours import find_cnt

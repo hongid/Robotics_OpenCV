@@ -123,4 +123,4 @@ if __name__ == '__main__':
     parser.add_argument('--image', help='Path to the first input image.', default='book.jpg')
     args = parser.parse_args()
 
-    color_trackbar(os.path.join("data/test images/", args.image))
+    color_trackbar(os.path.join("data/test_images/", args.image))

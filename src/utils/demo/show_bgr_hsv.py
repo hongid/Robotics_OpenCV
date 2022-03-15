@@ -64,4 +64,4 @@ if __name__ == '__main__':
         '--image', help='Path to the input image.', default="Rubiks.jpg")
     args = parser.parse_args()
 
-    show_bgr_hsv(os.path.join("data/test images/", args.image))
+    show_bgr_hsv(os.path.join("data/test_images/", args.image))

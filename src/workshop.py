@@ -12,7 +12,7 @@ from src.utils.demo.show_bgr_hsv import show_bgr_hsv
 from src.utils.demo.feature_matching import feature_matching
 
 def main(args):
-    img_path = os.path.join("data/test images/", args.image)
+    img_path = os.path.join("data/test_images/", args.image)
 
     if args.module[0] == "ocr":
         ocr(img_path)
